@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimage {
+  background-image: url(Receptionist.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+  /*	background-color: yellow;*/
+}
+
+.leftmenu h3 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.leftmenu h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+}
+
+.rightmenu ul {
+  margin-left: 278px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#fisrtlist {
+  color: orange;
+}
+.rightmenu ul li a:hover {
+  color: orange;
+  text-decoration: none;
+}
+.rightmenu ul li a {
+  color: white;
+  text-decoration: none;
+}
